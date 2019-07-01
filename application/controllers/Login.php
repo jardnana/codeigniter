@@ -5,11 +5,15 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
+		// New second page
 		$this->load->view('welcome_message');
 	}
  
  	public function validateLogin()
  	{
+		
+		
+		
  		if($this->input->post())
  		{
  			$user_name = $this->input->post('email');
