@@ -11,7 +11,7 @@ class Booking extends CI_Controller {
 		$data['booking_details'] = $this->db->get('booking_details')->result();
 		$this->load->view('book_list',$data);
 
-		
+		// TESTing a Booking Controller
 		 
 	}
 
