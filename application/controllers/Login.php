@@ -5,7 +5,7 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
-		// New second page
+		// New second page test
 		$this->load->view('welcome_message');
 	}
  
